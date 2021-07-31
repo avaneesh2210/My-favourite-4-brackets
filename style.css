@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+#1stimage {
+    border-radius: 100px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    color: red;
+    z-index: 10;
+    position: absolute;
+    display: inline-flex;
+}
+
+.font {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.link:hover {
+    background-color: yellow;
+}
+
+.link {
+    padding-right: 15px;
+}
+
+#hobby {
+    margin-top: 50px;
+}
+
+.line {
+    background-color: black;
+    height: 5px;
+    width: 100px;
+    margin: 8px auto;
+    margin-top: 5px;
+}
+
+istiframe {
+    scroll-behavior: smooth;
+}
+
+#about {
+    background-color: red;
+}
+
+#MyFavouritePlayers {
+    background-color: green;
+}
+
+#MyWork {
+    background-color: yellow;
+}
+#Inspiration {
+    background-color: blue;
+}
+#virat{
+    height: 200px;
+    margin-right: 20px;
+    transition: transform .2s;
+}
+virat:hover{
+    transform : scale(0.9);
+}
+#rohit{
+    height: 200px;
+    width: 200px;
+    transition: transform .2s;
+}
+virat:hover{
+    transform : scale(0.9);
+}
